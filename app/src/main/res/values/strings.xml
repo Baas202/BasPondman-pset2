@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">BasPondman-pset2</string>
+    <string name="welcome_discription">Welcome to Mad Libs! I will ask you to fill in words to complete a story. You won\'t be able to see the whole story untill you are done filling in all the missing words. That\'s part of the fun. Click below to get started...</string>
+    <string name="mad_libs_welcome_image">mad libs welcome image</string>
+    <string name="Button_get_started">Get Started!</string>
+    <string name="alpha">Type everything alphabetic, even numbers!</string>
+    <string name="complete_story">Fill in the words to complete the story!</string>
+    <string name="words_left">Word(s) left:</string>
+    <string name="type_here">Type here...</string>
+    <string name="submit">Submit</string>
+    <string name="category_word">Please type a/an</string>
 </resources>

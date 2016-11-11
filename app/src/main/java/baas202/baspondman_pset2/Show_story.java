@@ -24,10 +24,10 @@ public class Show_story extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.output_activity);
 
-         /* Initialize widget for story display and receive parser from previous activity. */
         storyView = (TextView) findViewById(R.id.show_text);
-        Intent calledActivity = getIntent();
-        story = (Story) calledActivity.getSerializableExtra("story");
+
+        // call the story from the second screen
+        Intent second_screen = getIntent();;
         currentStory = story.toString();
         storyView.setText(currentStory);
     }
